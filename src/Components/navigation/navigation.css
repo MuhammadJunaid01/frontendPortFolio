@@ -1,0 +1,10 @@
+.menuItem {
+  color: white;
+  margin-right: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+.menuItem:hover {
+  color: white;
+}
