@@ -29,13 +29,13 @@ const About = () => {
                 reactBootstrap, react-router, axios, react-hook-form, firebase
                 authentication, node js, express js and deploy firebase.
               </p>
-
               <a
-                class="hbtn hb-fill-middle-br"
-                href="../../MUHAMMAD JUNAID.pdf"
-                download
+                onClick={() => console.log("heeeee")}
+                style={{ width: "20%" }}
+                className="hbtn hb-fill-middle-br"
+                href="#"
               >
-                Download my resume
+                Hire Me
               </a>
             </div>
           </Col>

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "HTML5",
+    "image": "https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+  },
+  {
+    "name": "Css3",
+    "image": "https://cdn.freelogovectors.net/wp-content/uploads/2020/04/css-3-logo.png"
+  },
+  {
+    "name": "bootstrap5",
+    "image": "https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+  },
+  {
+    "name": "material Ui",
+    "image": "https://www.pngitem.com/pimgs/m/577-5779757_react-material-ui-logo-hd-png-download.png"
+  },
+  {
+    "name": "javascript",
+    "image": "https://www.pngitem.com/pimgs/m/524-5249023_js-javascript-logo-hd-png-download.png"
+  },
+  {
+    "name": "React",
+    "image": "https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png"
+  },
+  {
+    "name": "react-router",
+    "image": "https://miro.medium.com/max/494/1*F1iFV5NTRN9YrAIC2VtFaA.png"
+  },
+  {
+    "name": "axios",
+    "image": "https://www.pngitem.com/pimgs/m/91-913031_axios-axios-logo-hd-png-download.png"
+  },
+  {
+    "name": "node.js",
+    "image": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+  },
+  {
+    "name": "express.js",
+    "image": "https://pngimage.net/wp-content/uploads/2018/05/express-js-png-5.png"
+  },
+  {
+    "name": "mongoDB",
+    "image": "https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
+  },
+  {
+    "name": "github",
+    "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+  },
+  {
+    "name": "gitBash",
+    "image": "https://3.bp.blogspot.com/-xhNpNJJyQhk/XIe4GY78RQI/AAAAAAAAItc/ouueFUj2Hqo5dntmnKqEaBJR4KQ4Q2K3ACK4BGAYYCw/s1600/logo%2Bgit%2Bicon.png"
+  },
+  {
+    "name": "NetliFy",
+    "image": "https://www.netlify.com/v3/img/components/logomark-light.png"
+  },
+  {
+    "name": "Firebase",
+    "image": "http://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png"
+  },
+  {
+    "name": "Devetool",
+    "image": "https://avatars.githubusercontent.com/u/33149672?s=280&v=4"
+  }
+]

@@ -1,5 +1,7 @@
 .darkMode {
-  background-color: #000000;
+  background-color: #252934;
   color: white;
   font-family: "Raleway", sans-serif;
+  padding-bottom: 20px;
+  font-weight: 500;
 }

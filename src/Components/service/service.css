@@ -1,0 +1,28 @@
+.servicesContainer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.myServiceInfo {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.myservice {
+  text-align: center;
+}
+.serviceborder {
+  color: #eca600;
+  width: 13%;
+  margin: 0 auto;
+  padding: 2px 0px;
+  margin-top: 6px;
+}
+.serviceContainer {
+  text-align: center;
+  border: 2px solid white;
+  padding: 20px;
+}
+.serviceContainer:hover {
+  background-color: #eca600;
+  color: black;
+}
