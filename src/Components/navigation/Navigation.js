@@ -1,8 +1,15 @@
 import React from "react";
+import { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navigation.css";
+import Ofcanvas from "./ofcanvas/Ofcanvas";
 const Navigation = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div>
       <Navbar expand="lg">
@@ -24,24 +31,17 @@ const Navigation = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Link className="menuItem" to="/home">
-                Home
-              </Link>
-              <Link className="menuItem" to="/home">
-                About
-              </Link>
-              <Link className="menuItem" to="/home">
-                Service
-              </Link>
-              <Link className="menuItem" to="/home">
-                Work
-              </Link>
-              <Link className="menuItem" to="/home">
-                blog
-              </Link>
-              <Link className="menuItem" to="/home">
-                contact
-              </Link>
+              <span onClick={handleShow} className="topBars">
+                <i className="fas fa-bars"></i>
+              </span>
+              <Ofcanvas
+                show={show}
+                setshow={setShow}
+                handleClose={handleClose}
+              ></Ofcanvas>
+              {["start", "end", "top", "bottom"].map((placement, idx) => (
+                <Ofcanvas key={idx} placement={placement} name={placement} />
+              ))}
             </Nav>
           </Navbar.Collapse>
         </Container>

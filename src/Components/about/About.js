@@ -6,6 +6,9 @@ const About = () => {
   return (
     <div className="aboutContainer">
       <Container>
+        <div className="aboutme">
+          <h1>About Me</h1>
+        </div>
         <Row className="gy-3">
           <Col sm={12} md={12} lg={5}>
             <div className="aboutBanner">

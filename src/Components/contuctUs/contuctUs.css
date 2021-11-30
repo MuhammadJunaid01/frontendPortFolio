@@ -1,0 +1,31 @@
+.conatctContainer form {
+  width: 80%;
+  margin: 0 auto;
+}
+.inputForm {
+  width: 40%;
+  margin-right: 10px;
+  background-color: #252934;
+  border: 2px solid white;
+  border-radius: 17px;
+  padding: 6px 0px;
+  margin-bottom: 10px;
+  outline: white;
+}
+.inputForm:hover {
+  background-color: #252934;
+}
+.conatctContainer .textArea {
+  width: 81%;
+  background-color: #252934;
+  border: 2px solid white;
+  /* border-radius: 17px; */
+  padding: 6px 0px;
+  outline: white;
+}
+.contactbtn {
+  background-color: #252934;
+  border: 2px solid white;
+  color: white;
+  padding: 4px 20px;
+}

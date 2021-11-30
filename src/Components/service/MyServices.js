@@ -28,7 +28,6 @@ const MyServices = () => {
         <div className="myServiceInfo">
           <h3 className="myservice">
             My <span style={{ color: "#ECA600" }}>Service</span>
-            <hr className="serviceborder" />
           </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione

@@ -8,3 +8,6 @@
 .menuItem:hover {
   color: white;
 }
+.topBars {
+  cursor: pointer;
+}

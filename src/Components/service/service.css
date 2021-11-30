@@ -22,7 +22,11 @@
   border: 2px solid white;
   padding: 20px;
 }
-.serviceContainer:hover {
+/* .serviceContainer:hover {
   background-color: #eca600;
   color: black;
+} */
+.aboutme {
+  text-align: center;
+  margin-bottom: 50px;
 }
