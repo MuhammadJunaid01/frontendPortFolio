@@ -11,6 +11,7 @@ import Projects from "./../project/Projects";
 const Home = () => {
   return (
     <div>
+      <Navigation />
       <TopBanner></TopBanner>
       <About></About>
       <MyServices></MyServices>

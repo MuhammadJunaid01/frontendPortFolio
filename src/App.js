@@ -13,7 +13,6 @@ function App() {
     <>
       <div className="darkMode">
         <Router>
-          <Navigation />
           <Switch>
             <Route exact path="/">
               <Home></Home>
