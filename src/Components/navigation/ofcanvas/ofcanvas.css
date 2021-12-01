@@ -1,0 +1,19 @@
+.ofcanvasCont {
+  width: 200px;
+  height: 300px;
+  margin-top: 100px;
+  border-radius: 20px;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navLinkCanvas {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  background-color: #252934;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 14px;
+}

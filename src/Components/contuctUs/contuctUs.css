@@ -1,5 +1,5 @@
 .conatctContainer form {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 .inputForm {
@@ -22,10 +22,35 @@
   /* border-radius: 17px; */
   padding: 6px 0px;
   outline: white;
+  display: block;
+  margin-bottom: 10px;
 }
 .contactbtn {
   background-color: #252934;
   border: 2px solid white;
   color: white;
   padding: 4px 20px;
+}
+.followIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.followIcon i {
+  font-size: 25px;
+  margin-top: 3px;
+  margin-right: 20px;
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .conatctContainer {
+    width: 100%;
+  }
+  .inputForm {
+    display: block;
+    width: 100%;
+  }
+  .conatctContainer .textArea {
+    display: block;
+    width: 100%;
+  }
 }

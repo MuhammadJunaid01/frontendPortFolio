@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import Carousel from "react-elastic-carousel";
 import { useHistory } from "react-router";
+import { Link } from "react-router-dom";
 import "./project.css";
 const Projects = () => {
   const [skil, setSkil] = useState([]);
@@ -13,32 +14,37 @@ const Projects = () => {
         setSkil(data);
       });
   }, []);
+
   const handleDemoProject = (url) => {
     console.log("url", url);
     window.open(url, "_blank");
   };
+
   return (
     <div className="projectsContainer">
-      <Row>
-        {skil?.map((item, index) => (
-          <Col key={index} lg={3}>
-            <div>
-              <div className="projectInfo"></div>
-              <div className="procetsBanner">
+      <Container>
+        <div className="projectInfo">
+          <h2>My Recent Work</h2>
+        </div>
+        <Row>
+          {skil?.map((item, index) => (
+            <Col key={index} lg={3}>
+              <div>
                 <img className="projectsImage" src={item?.image} alt="" />
+                <Link to={`/projects/${item.name}`}>
+                  <a
+                    className="hbtn hb-fill-middle-br demobtn"
+                    href="#"
+                    rel="noopener noreferrer"
+                  >
+                    Detail
+                  </a>
+                </Link>
               </div>
-              <a
-                className="hbtn hb-fill-middle-br demobtn"
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Demo
-              </a>
-            </div>
-          </Col>
-        ))}
-      </Row>
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </div>
   );
 };

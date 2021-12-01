@@ -1,20 +1,33 @@
 import React from "react";
 import { Offcanvas } from "react-bootstrap";
-
+import { Link } from "react-router-dom";
+import "./ofcanvas.css";
 const Ofcanvas = (props) => {
   const { show, handleClose } = props;
   return (
     <div>
       <Offcanvas
-        style={{ width: "200px", height: "300px", marginTop: "100px" }}
+        className="ofcanvasCont"
         show={show}
         onHide={handleClose}
         {...props}
       >
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body></Offcanvas.Body>
+        <Offcanvas.Body>
+          <ul>
+            <Link style={{ textDecoration: "none" }} to="/home">
+              <li className="navLinkCanvas">home</li>
+            </Link>
+            <li className="navLinkCanvas">about</li>
+            <Link style={{ textDecoration: "none" }} to="/blog">
+              <li className="navLinkCanvas">blog</li>
+            </Link>
+            <li className="navLinkCanvas">project</li>
+            <li className="navLinkCanvas">contact</li>
+          </ul>
+        </Offcanvas.Body>
       </Offcanvas>
     </div>
   );

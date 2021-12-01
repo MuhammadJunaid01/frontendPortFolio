@@ -32,10 +32,10 @@ const About = () => {
                 reactBootstrap, react-router, axios, react-hook-form, firebase
                 authentication, node js, express js and deploy firebase.
               </p>
+
               <a
                 onClick={() => console.log("heeeee")}
-                style={{ width: "20%" }}
-                className="hbtn hb-fill-middle-br"
+                className="hbtn hb-fill-middle-br hirebtn"
                 href="#"
               >
                 Hire Me

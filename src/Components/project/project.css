@@ -1,25 +1,32 @@
 .projectsContainer {
   padding: 60px;
-  position: relative;
 }
 .projectsImage {
-  height: 300px;
+  height: 400px;
   width: 100%;
 }
 
 .projectInfo {
-  position: absolute;
-  top: 150px;
-
-  margin-left: 74px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .demobtn {
   width: 120px;
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: 80px;
 }
 @media (min-width: 300px) and (max-width: 700px) {
   .projectsContainer {
     padding: 0;
+    margin-top: 30px;
+  }
+  .projectsImage {
+    width: 100%;
+  }
+  .demobtn {
+    margin-left: 70px;
+  }
+  .projectInfo {
+    margin-left: 0px;
   }
 }

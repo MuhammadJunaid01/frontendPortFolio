@@ -12,7 +12,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <Navbar expand="lg">
+      <Navbar>
         <Container>
           <Navbar.Brand
             style={{
