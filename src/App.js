@@ -6,6 +6,7 @@ import About from "./Components/about/About";
 import Navigation from "./Components/navigation/Navigation";
 import ProjectsDetails from "./Components/projectsDetail/ProjectsDetails";
 import Blog from "./Components/blog/Blog";
+import Footer from "./Components/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Router>
           <Navigation />
           <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
             <Route exact path="/home">
               <Home></Home>
             </Route>
@@ -24,6 +28,7 @@ function App() {
               <ProjectsDetails></ProjectsDetails>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </div>
     </>

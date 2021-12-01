@@ -45,8 +45,11 @@ const detail = [
     image:
       "https://i.pinimg.com/originals/1f/9e/55/1f9e552fa3c01a2311c9c4b5fa2c20c1.jpg",
     technology: "React js,Css,ReactBootstrap,Firebase",
-    about:
-      "A website that offers information and treatments for various mental health issues,Responsive UI with the integration of Gmail password and Google sign-in authentication,Private Route Implement.",
+    about1:
+      "A website that offers information and treatments for various mental health issues.",
+    about2:
+      "Responsive UI with the integration of Gmail password and Google sign-in authentication.",
+    about3: "Private Route Implement.",
   },
   {
     name: "Educational Web Site",
