@@ -25,7 +25,7 @@ const Skils = () => {
         </div>
         <Row className="gy-3">
           {skils?.map((skil, index) => (
-            <Col key={index} sm={12} md={2} lg={2}>
+            <Col key={index} xs={6} md={2} lg={2}>
               <Card className="skilCard">
                 <Card.Img
                   className=" skilImage"
