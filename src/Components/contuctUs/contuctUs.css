@@ -11,6 +11,7 @@
   padding: 6px 0px;
   margin-bottom: 10px;
   outline: white;
+  color: white;
 }
 .inputForm:hover {
   background-color: #252934;
@@ -24,6 +25,7 @@
   outline: white;
   display: block;
   margin-bottom: 10px;
+  color: white;
 }
 .contactbtn {
   background-color: #252934;

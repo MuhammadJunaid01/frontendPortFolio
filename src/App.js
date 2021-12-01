@@ -13,13 +13,12 @@ function App() {
     <>
       <div className="darkMode">
         <Router>
+          <Navigation />
           <Switch>
             <Route exact path="/">
               <Home></Home>
             </Route>
-            <Route exact path="/home">
-              <Home></Home>
-            </Route>
+
             <Route exact path="/blog">
               <Blog></Blog>
             </Route>

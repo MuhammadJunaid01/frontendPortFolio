@@ -17,9 +17,10 @@ const Ofcanvas = (props) => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul>
-            <Link style={{ textDecoration: "none" }} to="/home">
+            <Link style={{ textDecoration: "none" }} to="/">
               <li className="navLinkCanvas">home</li>
             </Link>
+
             <li className="navLinkCanvas">about</li>
             <Link style={{ textDecoration: "none" }} to="/blog">
               <li className="navLinkCanvas">blog</li>
