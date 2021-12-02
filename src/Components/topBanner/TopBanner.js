@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import junaid from "../../MUHAMMAD-JUNAID.pdf";
+import junaid from "../../MUHAMMAD JUNAID.pdf";
 import "./topBanner.css";
 import Typical from "react-typical";
 const TopBanner = () => {
