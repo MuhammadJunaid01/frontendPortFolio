@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "./skils.css";
+import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+
+SwiperCore.use([EffectCoverflow, Pagination]);
+
 const Skils = () => {
   const [skils, setSkils] = useState();
   const [loader, setLoader] = useState(true);
