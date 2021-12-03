@@ -42,10 +42,10 @@ function App() {
               },
               modes: {
                 bubble: {
-                  distance: 100,
+                  distance: 40,
                   duration: 2,
-                  opacity: 0.8,
-                  size: 40,
+                  opacity: 0.1,
+                  size: 20,
                 },
                 push: {
                   quantity: 4,
@@ -86,7 +86,7 @@ function App() {
                 value: 80,
               },
               opacity: {
-                value: 0.5,
+                value: 0.3,
               },
               shape: {
                 type: "circle",
